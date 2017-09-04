@@ -1,0 +1,23 @@
+<div class="container">
+  <div id="register-step-1" class="register-step" style="display: block">
+            <fieldset>
+                <legend>
+                    <h2 class="h2">Input User Name to display Address</h2>
+                </legend>
+                <br><br>
+                <div class="row">
+                    <div class="col-md-10 col-sm-12">
+                        <div class="form-group input-group-lg">
+                            <input class="form-control " placeholder="Enter Name" #inputTxt>
+                        </div>
+                    </div>
+                    <div class="col-md-2 col-sm-12">
+                        <button type="button" class="btn btn-primary btn-block btn-lg step-1-confirm" (click)="getAll(inputTxt.value)">Go</button>
+                    </div>
+                </div>
+            </fieldset>
+
+            <br><br>
+            <div *ngIf="displayAddress">User Address: {{address}}</div>
+  </div>
+</div>

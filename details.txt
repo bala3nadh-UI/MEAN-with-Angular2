@@ -1,0 +1,18 @@
+Pre-requesites:
+---------------
+install 'MongoDB' & 'Robomongo'
+see 'MongoDB & Robomongo settings.docx' for details
+
+
+Commands to be executed:
+------------------------
+npm install
+ng build
+node server(Run the commented code once to create DB, Collection; Insert Document)
+
+goto "http://localhost:3000/"
+Enter "3nadh Company Ltd" inside name field
+
+
+
+
